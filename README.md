@@ -17,7 +17,7 @@ This project aims to develop a multitasking application using the ESP32 microcon
 - **Operating System:** FreeRTOS
 - **Programming Language:** C/C++
 - **Development Environment:** PlatformIO
-- **Sensors:** 
+- **Sensors:** BMP280 and MPU6050
 
 ## System Architecture
 
