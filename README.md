@@ -1,7 +1,3 @@
-Here's an updated version of your README based on the provided code:
-
----
-
 # Multitasking with ESP32
 
 ## Project Overview
