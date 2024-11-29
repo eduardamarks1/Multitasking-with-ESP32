@@ -19,9 +19,9 @@ double gyroX = 0, gyroY = 0, gyroZ = 0;
 unsigned long previousMillisBMP = 0;
 unsigned long previousMillisMPU = 0;
 unsigned long startTime = 0;
-const unsigned long intervalBMP = 2000;
-const unsigned long intervalMPU = 1000;
-const unsigned long runTime = 30000;
+const unsigned long intervalBMP = 300;
+const unsigned long intervalMPU = 100;
+const unsigned long runTime = 20000;
 
 SemaphoreHandle_t fileMutex;  // Mutex para sincronização de acesso aos arquivos
 QueueHandle_t bmpDataQueue;   // Fila para dados do BMP280

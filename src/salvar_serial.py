@@ -51,7 +51,7 @@ if __name__ == "__main__":
     porta_serial = "COM3"       # Substitua pela porta serial correta
     baudrate = 115200           # Velocidade da serial configurada no ESP32
     arquivo_saida = "dados_sensores.txt"  # Nome do arquivo de saída
-    duracao_leitura = 48      # Tempo de leitura em segundos (1 minuto + margem)
+    duracao_leitura = 30    # Tempo de leitura em segundos (1 minuto + margem)
 
 
     salvar_dados_serial(porta_serial, baudrate, arquivo_saida, duracao_leitura)
