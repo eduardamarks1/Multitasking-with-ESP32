@@ -32,13 +32,7 @@ A mutex is used to synchronize access to the files, and queues are used to commu
 
 The system runs for a predefined duration (e.g., 30 seconds), which can be changed as needed, reading sensor values at specified intervals. During this period, data is saved to text files. Once the execution time ends, the stored data is printed to the serial console for review. 
 
-## Implementation
-
 ### Setup Instructions
-
-Here's an updated explanation with your requested steps:
-
----
 
 The system uses the ESP32 microcontroller to handle multiple tasks concurrently. Two main tasks are implemented: one for reading and processing data from the BMP280 sensor, and another for the MPU6050 sensor. Data from both sensors is saved in the internal flash memory (SPIFFS) in separate files. A mutex and queues are used for synchronization and task communication.
 
